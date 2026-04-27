@@ -2,11 +2,13 @@ import streamlit as st
 import tensorflow as tf
 import numpy as np
 from PIL import Image
+from pathlib import Path
 
 # =========================
 # KONFIGURASI
 # =========================
-MODEL_PATH = "model/best_mobilenetv2_sawit_finetuned.keras"
+BASE_DIR = Path(__file__).resolve().parent
+MODEL_PATH = BASE_DIR / "model" / "best_mobilenetv2_sawit_finetuned.keras"
 
 CLASS_NAMES = ["belum_masak", "masak", "terlalu_masak"]
 
