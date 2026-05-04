@@ -319,13 +319,13 @@ div[data-testid="stFileUploader"] label {
     font-family: 'Cormorant Garamond', serif !important;
     font-size: 22px !important;
     font-weight: 700 !important;
-    color: var(--text) !important;
+    color: #black !important;
 }
 
 div[data-testid="stFileUploader"] small,
 div[data-testid="stFileUploader"] p {
     font-size: 14px !important;
-    color: var(--text-2) !important;
+    color: #black !important;
 }
 
 div[data-testid="stFileUploader"] button {
